@@ -17,6 +17,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     // Se recomienda encarecidamente trabajar siempre en modo estricto
     <React.StrictMode>
         <App />
-        <FirstApp />
+        {/* Pasar información a un componente hijo mediante Props */}
+        <FirstApp 
+            title="Mi primer componente" 
+            description="Los componentes de React deben tener un solo elmento padre, para ello se recomienda encapsular su contenido en un Fragment" 
+            numero={124} />
     </React.StrictMode>
 );
