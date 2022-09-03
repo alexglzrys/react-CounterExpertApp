@@ -1,6 +1,6 @@
 // Importación de librería React y ReactDOM para trabajar en el DOM del navegador
 import React, { Fragment } from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 // Importar componentes
 import App from './HelloWorldApp';
 import FirstApp from './FirstApp';
